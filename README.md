@@ -1,8 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Analytics Dashboard
+
+This is a modern analytics dashboard built with **Next.js** and **ShadCN UI** components. The project is designed to provide a clean and interactive interface for data visualization and management, powered by React and Tailwind CSS.
+
+## Tech Stack
+
+- **Next.js** - A React framework for building static and dynamic websites with built-in features like routing, server-side rendering, and API routes.
+- **ShadCN UI** - A utility-first design system built with **Radix UI** and **Tailwind CSS** for high-quality UI components.
+- **React** - A JavaScript library for building user interfaces.
+- **Tailwind CSS** - A utility-first CSS framework for rapid UI development.
+- **Recharts** - A composable charting library built with React.
 
 ## Getting Started
 
-First, run the development server:
+To get started with the project locally, follow these steps:
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org) (version 18 or higher)
+- [npm](https://npmjs.com) or [Yarn](https://yarnpkg.com) (recommended)
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Lucky4604/Analytics.git
+cd Analytics
+```
+
+### 2. Install dependencies
+
+Use your preferred package manager:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+### 3. Run the development server
 
 ```bash
 npm run dev
@@ -10,27 +46,27 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This will start the development server at [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 4. Start developing
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+You can start editing the page by modifying `app/page.tsx`. The page will auto-update as you make changes.
+
+## Features
+
+- **Interactive Data Visualizations** - Using Recharts for dynamic, customizable charts.
+- **ShadCN UI Components** - Ready-to-use UI components built with **Radix UI** and styled with **Tailwind CSS**.
+- **Responsive Design** - The dashboard is fully responsive and optimized for desktop and mobile devices.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+- [Next.js Documentation](https://nextjs.org/docs)
+- [ShadCN UI Documentation](https://github.com/shadcn/ui)
+- [Radix UI Documentation](https://www.radix-ui.com/docs)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+To deploy the project, you can use platforms like [Vercel](https://vercel.com/) for easy integration with Next.js.
